@@ -1,0 +1,74 @@
+/* Imagen superior */
+.header-image {
+    text-align: center;
+    background: #f8f9fa;
+    padding: 10px 0;
+}
+
+.header-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header-container {
+    max-width: 1200px;
+    /* Ajusta este valor al ancho deseado de tu imagen */
+    margin: 0 auto;
+}
+
+/* Submenús flotantes */
+.navbar-nav .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #792327;
+    border-radius: 5px;
+}
+
+.navbar {
+    background-color: #7a0c0c !important;
+    /* Cambia este valor al color deseado */
+}
+
+.navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu .dropdown-item {
+    color: white;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #491717;
+}
+
+html,
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    flex: 1;
+    /* Empuja el footer hacia abajo */
+}
+
+/*para administrador
+.admin-only {
+    display: none;
+}
+*/
+/* Posiciona el contenedor de submenús anidados y ocúltalos de forma inicial */
+.dropdown-submenu {
+    position: relative;
+}
+
+
+/* Ocultar los submenús por defecto */
+.dropdown-submenu>.dropdown-menu {
+    display: none !important;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    margin-top: 0;
+}
