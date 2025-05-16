@@ -65,4 +65,4 @@ jobs:
           app-name: 'sicesoPrueba'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FBF70CC007FC4D038D5C5AD239944367 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B577DEBB3CEE40ADBAD8EDA97DBBF4D8 }}
